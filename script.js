@@ -1,5 +1,5 @@
 "use strict";
-
+//API
 $(document).ready(function() {
   console.log("Ready to fetch GitHub User Repo!");
   watchSubmitButton();
