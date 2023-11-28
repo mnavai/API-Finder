@@ -18,7 +18,7 @@ function watchSubmitButton() {
   });
 }
 
-//Make Request to GitHub API
+//Send a Request to GitHub API
 function fetchUserName() {
   fetch("https://api.github.com/users/" + userInput() + "/repos")
     .then(response => response.json())
